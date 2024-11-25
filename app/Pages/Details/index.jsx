@@ -45,17 +45,17 @@ export default function Details({ route }) {
                     </View>
                    
                     <View style={styles.infoContainer}>
-                        <Text style={styles.text}><Text style={[styles.boldText, styles.text]}>Description:</Text> {destination?.description}</Text>
-                        <Text style={styles.text}><Text style={[styles.boldText, styles.text]}>Difficulty:</Text> {destination?.difficulty}</Text>
-                        <Text style={styles.text}><Text style={[styles.boldText, styles.text]}>Favorites: </Text> {destination?.favorites} </Text>
+                        <Text style={styles.text}><Text style={[styles.boldText, styles.text]}>Descripción:</Text> {destination?.description}</Text>
+                        <Text style={styles.text}><Text style={[styles.boldText, styles.text]}>Dificultad:</Text> {destination?.difficulty}</Text>
+                        <Text style={styles.text}><Text style={[styles.boldText, styles.text]}>Favoritos: </Text> {destination?.favorites} </Text>
                     </View>
 
                     <View style={styles.buttonContainer}>
                         <TouchableOpacity style={styles.button} onPress={fetchDeleteDestination}>
-                            <Text style={styles.buttonText}>Delete destination</Text>
+                            <Text style={styles.buttonText}>Borrar destino</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Edit', { destination })} > 
-                            <Text style={styles.buttonText}>Edit destination</Text>
+                            <Text style={styles.buttonText}>Editar destino</Text>
                         </TouchableOpacity>
                     </View>
                 </View>   
@@ -69,6 +69,7 @@ const styles = StyleSheet.create({
     background: {
         flex: 1,
         height: '100%',
+        backgroundColor: 'pink'
     },
     container: {
         flex: 1,
@@ -112,7 +113,8 @@ const styles = StyleSheet.create({
     }, 
     buttonText: {
         alignSelf: 'center', 
-        fontSize: 18
+        fontSize: 18,
+        textAlign: 'center',
     }, 
     backButton: {
         backgroundColor: 'rgba(255, 255, 255, 0.3)',

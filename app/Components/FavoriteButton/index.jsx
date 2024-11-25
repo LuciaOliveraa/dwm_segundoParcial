@@ -20,7 +20,7 @@ export default function FavoriteButton({ destination, setDestination }){
         setIsMyFavorite(true);
         const data = await editDestination(destination.id, updatedDestination)
         setFavorites(data?.favorites);
-        setDestination(data);
+        setDestination(data.id, data);
     }
 
     async function handleDeleteFavorite() {
@@ -34,7 +34,7 @@ export default function FavoriteButton({ destination, setDestination }){
         setIsMyFavorite(false);
         const data = await editDestination(destination.id, updatedDestination)
         setFavorites(data?.favorites);
-        setDestination(data);
+        setDestination(data.id, data);
     }
 
     return (

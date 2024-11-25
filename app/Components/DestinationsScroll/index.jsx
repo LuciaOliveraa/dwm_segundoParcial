@@ -20,6 +20,7 @@ export function DestinationsScroll({ destinations, setDestination }) {
 
     useEffect(() => {
         handleOrderDestinations();
+        console.log("ordenando destinations ");
     }, [destinations]);
     
     return (

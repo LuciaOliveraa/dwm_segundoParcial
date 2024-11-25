@@ -11,7 +11,7 @@
       "name": "Monte Everest 🗻❄️",
       "description": "La montaña más alta del mundo, ubicada en la cordillera del Himalaya.",
       "difficulty": "Difícil",
-      "favorites": 103,
+      "favorites": 104,
       "id": "2"
     },
     {
@@ -46,15 +46,22 @@
       "name": "Islas Galápagos 🐢🌴",
       "description": "Un archipiélago volcánico famoso por su biodiversidad única.",
       "difficulty": "Moderada",
-      "favorites": 105,
+      "favorites": 104,
       "id": "7"
     },
     {
       "name": "Auroras Boreales en Noruega 🌌❄️",
       "description": "Un fenómeno natural espectacular visible en el cielo nocturno ártico.",
       "difficulty": "Fácil",
-      "favorites": 145,
+      "favorites": 146,
       "id": "8"
+    },
+    {
+      "name": "hola",
+      "description": "holita",
+      "difficulty": "Difícil",
+      "favorites": 0,
+      "id": "5de6"
     }
   ]
 }
