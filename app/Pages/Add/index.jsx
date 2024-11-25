@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     background: {
         flex: 1,
         height: '100%',
+        backgroundColor: 'pink'
     },
     container: {
         flex: 1,
@@ -136,7 +137,8 @@ const styles = StyleSheet.create({
         fontSize: 18
     }, 
     inputContainer: {
-        gap: 5
+        gap: 5,
+        
     }
 });
   

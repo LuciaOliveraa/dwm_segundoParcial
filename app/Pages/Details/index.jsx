@@ -83,13 +83,13 @@ const styles = StyleSheet.create({
         width: '85%', 
         height: '85%', 
         gap: 20,
-        backgroundColor: 'rgba(255, 255, 255, 0.5)',
         borderRadius: 50,
         padding: 30
     },
     title: {
-      fontWeight: 800,
-      fontSize: 70,
+      fontWeight: 600,
+      fontSize: 40,
+      marginTop: 30,
     }, 
     boldText: {
         fontWeight: 'bold'
@@ -107,9 +107,9 @@ const styles = StyleSheet.create({
     }, 
     button: {
         flex: 1,
-        backgroundColor: 'white',
+        backgroundColor: 'rgba(255, 255, 255, 0.5)',
         padding: 15, 
-        borderRadius: 50
+        borderRadius: 20
     }, 
     buttonText: {
         alignSelf: 'center', 
@@ -117,9 +117,9 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     }, 
     backButton: {
-        backgroundColor: 'rgba(255, 255, 255, 0.3)',
+        backgroundColor: 'rgba(255, 255, 255, 0.5)',
         padding: 5,
-        borderRadius: 50, 
+        borderRadius: 12, 
         width: '100%',
     }, 
     back: {

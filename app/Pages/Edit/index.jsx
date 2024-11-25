@@ -88,6 +88,7 @@ const styles = StyleSheet.create({
     background: {
         flex: 1,
         height: '100%',
+        backgroundColor: 'pink'
     },
     container: {
         flex: 1,
